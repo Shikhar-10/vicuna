@@ -17,6 +17,7 @@ GET_PERF_TCL := get_max_clk.tcl
 CORE     ?= ibex
 CORE_DIR := $(DEMO_DIR)/../$(CORE)/
 
+
 # board and associated part, constraints file and clock info
 BOARD  ?= nexysvideo
 CONSTR ?= $(BOARD).xdc
